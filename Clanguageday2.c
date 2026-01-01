@@ -1,12 +1,8 @@
 #include <stdio.h>
-int main()
+int main(int argc, char const *argv[])
 {
-    int lenght;
-    int width;
-  printf("enter lenght\n");
-  scanf("%d",&lenght);
-  printf("enter width\n");
-  scanf("%d",&width);
-  printf("the are of the rectabngle is %d", lenght*width);
+    float c = 37.0;
+    float f = ((9.0/5.0)*c)+ 32;
+    printf("the value of c into f is %f", f);
 return 0;
-} 
+}
